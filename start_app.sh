@@ -2,6 +2,7 @@ docker cp hotel_bookings.csv namenode:hotel_bookings.csv
 docker exec -it namenode bash
 hdfs dfs -mkdir -p /data/hotel_data
 hdfs dfs -D dfs.blocksize=33554432 -put hotel_bookings.csv /data/hotel_data/hotel_bookings.csv
+hdfs dfsadmin -setSpaceQuota 20g /
 exit
 
 docker exec -it spark-worker-1 bash
