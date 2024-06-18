@@ -14,7 +14,7 @@
 
 Результаты систематизированы в таблице
 
-| Time (min)       | Data nodes           | Optimization  |
+| Avg time (min)       | Data nodes           | Optimization  |
 | ------------- |:-------------:| -----:|
 | 7,3     | 1 | no |
 | 6,9     | 1      |   yes |
