@@ -7,6 +7,7 @@ exit
 docker exec -it spark-worker-1 bash
 apk add --update make automake gcc g++
 apk add --update python-dev
+apk add linux-headers
 pip install numpy
 exit
 
