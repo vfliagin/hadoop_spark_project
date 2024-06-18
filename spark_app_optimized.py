@@ -7,7 +7,7 @@ from pyspark.sql import SparkSession
 optimize = True
 
 sc = SparkContext.getOrCreate(SparkConf().setMaster('spark://spark-master:7077'))
-sc.setLogLevel("OFF")
+sc.setLogLevel("INFO")
 
 spark = SparkSession.builder.getOrCreate()
 
