@@ -1,3 +1,5 @@
+docker-compose up
+
 docker cp hotel_bookings.csv namenode:hotel_bookings.csv
 docker exec -it namenode bash
 hdfs dfs -mkdir -p /data/hotel_data
