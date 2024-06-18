@@ -21,6 +21,6 @@
 | 9,12 | 3      |    no |
 | 7,94 | 3      |    yes |
 
-Использование RAM практически не отличалось в каждом случае и сотавляло 5.25 GB
+Использование RAM практически не отличалось в каждом случае и составляло около 5.25 GB
 
 ![RAM](https://github.com/vfliagin/hadoop_spark_project/blob/main/ram_usage.jpg?raw=true)
